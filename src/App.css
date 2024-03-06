@@ -1,0 +1,47 @@
+.page{
+    justify-items: center;
+    box-shadow: 2px 2px 5px;
+    margin: 20px;
+    background-color: rgb(219, 171, 207);
+    border:1px solid rgb(173, 98, 178);
+    border-radius: 10px;
+    padding-top: 5px;
+    
+    
+    
+    }
+    .profil{
+    text-align: center;
+    color:black;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    
+    }
+    .btn{
+      background-color:rgb(144, 182, 216);
+      color: black;
+      border:1px solid rgb(173, 98, 178);
+      border-radius: 10px;
+     
+     display: inline;
+     padding: 7px;
+     text-align: center;
+     font-size: 16px;
+     margin-left: 47%;
+     cursor: pointer;
+  
+    }
+    
+    .btn:hover {background-color: #bbb7b1}
+    
+  
+    
+    .profil {
+      animation: fade-in-keyframes 1s;
+    }
+    @keyframes fade-in-keyframes {
+      from {opacity: 0}
+      to {opacity: 1}
+    }
+
